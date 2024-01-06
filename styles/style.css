@@ -1,9 +1,22 @@
-body{
-  background-image: url(Foods/pexels-samer-daboul-1375901.jpg);
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-div img{
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  
+header>p{
+  font-size: 100px;
+  font-weight: bolder;
+}
+ul li{
+  display: inline;
+  margin-right: 20px;
+  font-size: 24px;
+  padding: 10PX 15px;
+  border-radius: 5px;
+}
+
+ul li:hover{
+  background-color: rgb(70, 79, 76);
+  color: wheat;
+  box-shadow: 1px 2px 2px salmon;
 }
