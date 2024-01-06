@@ -1,0 +1,9 @@
+body{
+  background-image: url(Foods/pexels-samer-daboul-1375901.jpg);
+}
+div img{
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
